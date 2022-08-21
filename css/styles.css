@@ -1,0 +1,193 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #f5f5f5;
+  --secondary-white-color: #f5f4fa;
+  --dark-color: #2f303a;
+  --fond-heder: #ffffff;
+}
+body {
+  font-family: roboto, raleway, sans-serif;
+}
+.page {
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  background-color: var(--primary-white-color);
+}
+
+.header {
+  background: #ffffff;
+}
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway, , sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+    .header .link {
+        line-height: calc(16 / 12);
+        color: var(--title-text-color);
+    }
+    .header .link:hover,
+    .header .link:focus {
+        color: var(--accent-color);
+    }
+    .link.current {
+        color: var(--accent-color);
+
+    }
+    .Hero {
+        background-color: var(--dark-color);
+        width: 1600px;
+        height: 600px;
+        left: 0;
+        top: 80px;
+    }
+    .hero-title {
+       text-align: center;
+        font-size: 44px;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        line-height: 1.36;
+        font-size: 44px;
+        font-weight: 900;
+        position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+    }
+    .button-primary {
+        position: absolute;
+        width: 152px;
+        height: 30px;
+        top: 440px;
+        left: 724px;
+
+        font-weight: 700;
+        line-height: calc(30 / 16);
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 00.06em;
+        color:#ffffff;
+        background-color: var(--accent-color);
+    }
+    .section .btn {
+        font-family: Roboto,
+        sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26 / 16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        background-color: var(--secondary-white-color);
+        color: var(--title-text-color);
+    }
+    .section .btn:hover,
+    .section .btn:focus 
+    
+    {color: var(--footer-text-color);
+    background-color: var(--accent-color);
+    }
+    .section-title {
+        font-size: 700;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);  
+    }
+    
+    .feature-list {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 00.03em;   
+    }
+   
+    .title {
+        color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;  
+    }
+    .title-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 00.03em;
+        color: var(--title-text-color);
+    }
+    .job-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .list-portfol {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--primary-text-color);
+    }
+    .title-two {
+        font-size: 700;
+        font-size: 18px;
+        line-height: 36px;
+        
+        letter-spacing: 0.06em;
+        color: var(--title-text-color);  
+    }
+    .accent {
+        color: var(--accent-color); 
+    }
+   
+    .footer-logo {
+        font-family: '
+      Raleway,
+    sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-maps {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-link {
+  color: var(--fond-heder);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  font-family: 'Roboto';
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  background: #2f303a;
+}
