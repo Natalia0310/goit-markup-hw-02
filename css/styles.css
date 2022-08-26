@@ -12,6 +12,54 @@ body {
 }
 .header {
   background: #ffffff;
+  
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline 2px solid red;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-link {
+  margin-right: 93px;
+}
+.header-nav {
+  margin-right: auto;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header-nav-link,
+.header-contact {
+  display: block;
+  padding-top: ;
+  padding-bottom: ;
+  font-weight: ;
+  font-size: ;
+  line-height: ;
+  letter-spacing: ;
+  color: ;
+}
+.header-group {
+  display: flex;
+  align-items: center;
+}
+.header-contact {
+  margin-right: ;
+}
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-contact: focus,
+.header-contact: hover{
+  color: var(--accent-color); 
 }
 .list-header {
   list-style: none;
