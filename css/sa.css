@@ -1,0 +1,37 @@
+.header-link {
+    margin-right: 93px;
+  }
+  .header-nav {
+    margin-right: auto;
+  }
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .header-nav-link,
+  .header-contact {
+    display: block;
+    padding-top: ;
+    padding-bottom: ;
+    font-weight: ;
+    font-size: ;
+    line-height: ;
+    letter-spacing: ;
+    color: ;
+  }
+  .header-group {
+    display: flex;
+    align-items: center;
+  }
+  .header-contact {
+    margin-right: ;
+  }
+  .header-nav-link:hover,
+  .header-nav-link:focus,
+  .header-contact: focus,
+  .header-contact: hover{
+    color: var(--accent-color); 
+  }
+
+  <li class="header-item"><a class="header-nav-link link" href="./portfolio.html" class="header-link">Портфоліо</a></li>
